@@ -1,0 +1,28 @@
+.kct_calc_frame
+{
+  position:absolute;
+  margin-top:0.2em;
+  z-index:10000;
+  background-color:#D8D7DA;
+  border-radius:3px;
+  display: none;
+  border: 1px solid #ccc;
+}
+.kct_calc_frame td
+{
+  width: 45px;
+  height: 45px;
+  text-align:center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  margin: 0px;
+}
+.kct_calc_frame td:hover
+{
+  background-color: #C3C2C4;
+}
+.kct_calc_frame td:active
+{
+  background-color: #A4A0AB;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>kctCalculator - example</title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <link href="kctCalculator/css/kct_calculator.css" rel="stylesheet">
+    <script src="kctCalculator/js/kct_calculator.js"></script>
+    <style media="screen">
+      body {
+        text-align: center;
+        padding: 20%;
+      }
+      input{
+        font-size: 160%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <input type="text" name="input" id="input" value="">
+    </p>
+    <p><a href="https://kctrud.ru">© 2018 KCT</a> | <a href="https://github.com/kctrud/kctRibbon">GIT HUB</a></p>
+
+    <script type="text/javascript">
+      $("#input").kctcalculator();
+    </script>
+  </body>
+</html>
