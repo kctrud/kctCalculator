@@ -1,5 +1,5 @@
 # kctCalculator
-PHP jQuery based calculator for input field
+jQuery based calculator for input field
 
 ![alt text](https://picabox.ru/pictures/2018/07/02/22/05/5576182.png)
 
